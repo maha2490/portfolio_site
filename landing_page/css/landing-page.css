@@ -3,7 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-@import 'https://fonts.googleapis.com/css?family=Lobster|Raleway';
+@import 'https://fonts.googleapis.com/css?family=Lobster|Playfair+Display|Raleway';
 
 body,
 html {
@@ -18,12 +18,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Arimo', sans-serif;
     font-weight: 700;
 }
 
 .topnav {
     font-size: 1em; 
+    letter-spacing: 1px;
+    text-transform: lowercase;
     color: rgba(71,64,74,0.9);
 }
 #initials {
@@ -36,7 +38,10 @@ h6 {
 }
 .lead {
     font-size: 18px;
-    font-weight: 400;
+    text-transform: lowercase;
+    color: #ad8d86;
+    letter-spacing: 0.5px;
+    font-weight: 300;
 }
 
 .intro-header {
@@ -44,11 +49,9 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: linear-gradient(rgba(0, 47, 75, 0.45), rgba(220, 66, 37, 0.3)),
-                url(../img/computer_screen.jpeg) no-repeat center center;
-                 
+    background: linear-gradient(rgba(0, 47, 75, 0.3), rgba(220, 66, 37, 0.3)),
+                url(../img/computer_screen.jpeg) no-repeat center center;               
     background-size: cover;
-
 }
 
 .intro-message {
@@ -61,7 +64,7 @@ h6 {
     font-family: 'Lobster', cursive;
     margin: 0;
     text-shadow: 3px 3px 2px rgba(183,155,149,1);
-    font-size: 9em;
+    font-size: 6.5em;
     letter-spacing: 0px;
     color: rgb(71,64,74);
     text-transform: lowercase;
@@ -70,7 +73,7 @@ h6 {
 }
 
 .intro-divider {
-    width: 534px;
+    width: 34%;
     border-top: 3px solid #faf9fa;
 }
 
@@ -78,10 +81,13 @@ h6 {
     /*text-shadow: 0.5px 0.5px 0.5px rgba(71,64,74,0.9);*/    
     text-shadow: 0.2px 0.2px 0.5px rgba(71,64,74,0.3);
     font-family: 'Arimo', sans-serif;
-    letter-spacing: 5px;
+    letter-spacing: 1.5px;
     color: #987068;
-    font-size: 210%;
+    font-size: 178%;
     margin-top: 3%;
+}
+#plus{
+    color: rgb(71,64,74);
 }
 
 @media(max-width:767px) {
@@ -108,25 +114,36 @@ h6 {
     }
 }
 
-.network-name {
+/*.network-name {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
-}
+}*/
 
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
 }
+.img-thumbnail {
+    width: 65%;
+    margin-left: 17%;
+    padding: 0;
+}
 
 .content-section-b {
     padding: 50px 0;
+    background-color: #c7c7c7;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
 }
 
 .section-heading {
+    font-family: 'Lobster', cursive;
+    /*text-shadow: 1px 1px 1px rgba(183,155,149,1);*/
+    font-size: 3em;
+    color: rgb(71,64,74);
+    text-transform: lowercase;
     margin-bottom: 30px;
 }
 
@@ -135,18 +152,20 @@ h6 {
     width: 200px;
     border-top: 3px solid #e7e7e7;
 }
-
+.purravida_thumbnail {
+    width: 93%;
+    margin-top: 4%;
+}
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: linear-gradient(rgba(0, 47, 75, 0.4), rgba(220, 66, 37, 0.2)), 
+                url(../img/blurry_background.jpg);
     background-size: cover;
 }
 
-.banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 3em;
+.fa {
+    font-size: 2em;
 }
 
 .banner ul {
@@ -184,7 +203,7 @@ h6 {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 10px 0;
     background-color: #f8f8f8;
 }
 
