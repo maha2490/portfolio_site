@@ -81,6 +81,7 @@ h6 {
     letter-spacing: 5px;
     color: #987068;
     font-size: 210%;
+    margin-top: 3%;
 }
 
 @media(max-width:767px) {
