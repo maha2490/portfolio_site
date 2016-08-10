@@ -21,7 +21,15 @@ h6 {
     font-family: 'Arimo', sans-serif;
     font-weight: 700;
 }
-
+a {
+    color: #987067;
+    font-weight: 900;
+}
+.content-section-a .lead a:hover,
+.content-section-b .lead a:hover {
+    color: rgb(71,64,74);
+    font-weight: 900;
+}
 .topnav {
     font-size: 1em; 
     letter-spacing: 1px;
