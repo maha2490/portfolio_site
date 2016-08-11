@@ -1,0 +1,34 @@
+/*web_photography_contact.css*/
+@import 'https://fonts.googleapis.com/css?family=Lobster|Playfair+Display|Raleway';
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+}
+a {
+    color: #987067;
+    font-weight: 900;
+    }
+.web_work_background {
+	padding-top: 50px;
+	background: linear-gradient(rgba(0, 47, 75, 0.3), rgba(220, 66, 37, 0.3));
+	width: 100vw;
+	height: 100vw;
+}
+.web_work_image_cycle {
+    margin-top: 9%;
+	width: 100%;
+  
+}
