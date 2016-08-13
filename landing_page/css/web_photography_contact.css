@@ -67,7 +67,7 @@ a {
 	font-size: 1em;
     letter-spacing: 1px;
     text-transform: lowercase; 
-	margin-top: 15%;
+	margin-top: 3%;
 	text-align: center;
  }
  #pre_next_buttons a:hover{
@@ -107,4 +107,11 @@ a {
 	width: 100vw;
 	height: 600px;
 	}
+}
+/* PHOTO_WORK __________________________________________*/
+.photo_work_image_cycle{
+	padding-top: 50px;
+	margin-top: 10%;
+    margin-left: 6%;
+    width: 82%;
 }
