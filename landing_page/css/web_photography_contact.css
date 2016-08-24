@@ -61,34 +61,21 @@ a {
     font-weight: 300;
     line-height: 156%;
 }
-#pre_next_buttons{
-	font-family: 'Arimo', sans-serif;
-    font-weight: 700;
-	font-size: 1em;
-    letter-spacing: 1px;
-    text-transform: lowercase; 
-	margin-top: 3%;
-	text-align: center;
- }
- #pre_next_buttons a:hover{
- 	color: rgb(71,64,74);
-    font-weight: 900;
- }
 @media(max-width:767px) {
     .web_work_image_cycle {
 	padding-top: 50px;
     margin-top: -7%;
-    width: 100%;  
+    width: 75%;  
 	}
 	.web_work_image_cycle_fix {
 	margin-top: -2%;
-    width: 100%;  
+    width: 75%;  
 	}
 	.web_work_background {
 	padding-top: 50px;
 	background: linear-gradient(rgba(0, 47, 75, 0.3), rgba(220, 66, 37, 0.3));
 	width: 100vw;
-	height: 700px;
+	height: 870px;
 	}
 }
 @media(max-width:400px) {
