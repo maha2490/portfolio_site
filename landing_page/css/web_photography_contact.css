@@ -96,9 +96,9 @@ a {
 	}
 }
 /* PHOTO_WORK __________________________________________*/
+
 .photo_work_image_cycle{
 	padding-top: 50px;
-	margin-top: 10%;
     margin-left: 6%;
     width: 82%;
 }
@@ -148,6 +148,8 @@ a {
 }
 .contact_input_box {
     width: 65%;
+    color: #777;
+    font-weight: 100;
 }
 .form-group.row {
     margin-bottom: 3%;
