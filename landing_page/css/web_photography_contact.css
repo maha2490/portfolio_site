@@ -96,7 +96,17 @@ a {
 	}
 }
 /* PHOTO_WORK __________________________________________*/
-
+.cycle-overlay{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 156%;
+    letter-spacing: 0.5px;
+    text-transform: lowercase; 
+    margin-top: 3%;
+    margin-left: 6%;
+    margin-bottom: 5%; 
+}
 .photo_work_image_cycle{
 	padding-top: 50px;
     margin-left: 6%;
@@ -104,20 +114,10 @@ a {
 }
 .photo_work_image_cycle_color{
 	padding-top: 50px;
-	margin-top: 10%;
     margin-left: 6%;
-    width: 82%;
+    width: 105%;
 }
-.cycle-overlay{
-	font-family: 'Arimo', sans-serif;
-    font-weight: 700;
-	font-size: 1em;
-    letter-spacing: 1px;
-    text-transform: lowercase; 
-	margin-top: 3%;
-    margin-left: 6%;
-    margin-bottom: 5%;
-}
+
 
 /* CONTACT ___________________________________________*/
 
